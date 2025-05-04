@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+.env
+
+# Logs and settings
+*.log
+channel_settings.json
+bot_log.txt
+
+# VSCode or PyCharm
+.vscode/
+.idea/
