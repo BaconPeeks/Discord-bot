@@ -7,8 +7,8 @@ import os
 import random
 
 # Bot token & admin channel (you can also load from env for safety)
-TOKEN = 'replace'  # Replace with a secure method in production
-ADMIN_CHANNEL_ID = replace # ID for admin notifications
+TOKEN = 'TOKEN'  # Replace with a secure method in production
+ADMIN_CHANNEL_ID = CHANNEL_ID # ID for admin notifications
 
 # Intents setup for accessing members, messages, etc.
 intents = discord.Intents.default()
@@ -35,7 +35,7 @@ delete_delay = BASE_DELETE_DELAY
 last_rate_limit = 0.0
 
 # User IDs exempt from deletion
-WHITELIST = {1257026449873960980}  # Replace with actual whitelisted user IDs
+WHITELIST = {1234567890}  # Replace with actual whitelisted user IDs
 
 # Log and cleanup target channels
 log_channel = None
