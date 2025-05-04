@@ -75,4 +75,4 @@ MIT License
 
 ---
 
-Made with ❤️ using `discord.py`
+Made using `discord.py`
